@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style: none;
+}
+:root {
+    font-family: 'Work Sans', sans-serif;
+    --header-bg: rgb(46, 120, 163);
+    --hover-a: white;
+    --btn: rgb(84, 201, 216);
+}
+body {
+    background-color: rgb(216, 232, 241);
+}
+img {
+  width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+    border: none;
+    background: none;
+}
